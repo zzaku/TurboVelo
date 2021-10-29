@@ -1,0 +1,81 @@
+.profil{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+.onglets{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    width: 25%;
+    background-color: rgb(248, 239, 239);
+}
+
+.frame_work{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 75%;
+    background-color: white;
+}
+
+.settings{
+    justify-content: space-between;
+    height: 110px;
+    width: 100%;
+}
+
+.info_user{
+    height: 70%;
+    width: 40%;
+}
+
+.deconnexion{
+    height: 20%;
+    width: 20%;
+}
+
+.container-profil{
+    width: 100%;
+    display: flex;
+}
+
+.container-information{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.container-info{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-info{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.avatar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container-avatar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}

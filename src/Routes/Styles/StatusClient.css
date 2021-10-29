@@ -1,0 +1,28 @@
+.home{
+    height: 100%;
+    width: 100%;
+}
+
+.main-body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #454dbe52;
+    border:2px solid wheat;
+}
+
+.content-body{
+    height: 100%;
+    width: 100%;
+}
+
+.body-home-container{
+    height: 100%;
+    width: 100%;
+}
+
+.body-home-content{
+    height: 100%;
+    width: 100%;
+}

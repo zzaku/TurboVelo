@@ -1,0 +1,25 @@
+.home{
+    height: 100%;
+    width: 100%;
+}
+
+.main-body{
+    height: 100%;
+    width: 100%;
+    background-color: #436d88;
+}
+
+.content-body{
+    height: 100%;
+    width: 100%;
+}
+
+.body-home-search{
+    height: 100%;
+    width: 100%;
+}
+
+.body-home-content{
+    height: 100%;
+    width: 100%;
+}

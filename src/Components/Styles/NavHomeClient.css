@@ -1,0 +1,58 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+div.container
+{
+    width: 100%;
+    font-family: Raleway;
+    margin: auto;
+	padding: 2em 3em;
+	text-align: center;
+}
+
+div.container a
+{
+    color: #FFF;
+    text-decoration: none;
+    font: 20px Raleway;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+.teal
+{
+    background: #254468;
+}
+
+/* Border from Y to X  */
+div.anim a:before, div.anim a:after
+{
+    position: absolute;
+    opacity: 0.5;
+    height: 100%;
+    width: 2px;
+    content: '';
+    background: #FFF;
+    transition: all 0.3s;
+}
+
+div.anim a:before
+{
+    left: 0px;
+    top: 0px;
+}
+
+div.anim a:after
+{
+    right: 0px;
+    bottom: 0px;
+}
+
+div.anim a:hover:before, div.anim a:hover:after
+{
+    opacity: 1;
+    height: 2px;
+    width: 100%;
+}

@@ -1,0 +1,4 @@
+.confirm-or-delete-demande{
+    display: flex;
+    justify-content: space-around;
+}
